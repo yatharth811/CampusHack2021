@@ -40,3 +40,8 @@ class WandboxAsync:
                     "status": "killed",
                     "message": response.get("program_message", "") + response.get("compiler_message", "")
                 }
+            else:
+                return {
+                    "status": response["signal"],
+                    "message": ""
+                }
