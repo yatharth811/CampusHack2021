@@ -1,5 +1,5 @@
 # 💻 Bitlords Compiler
-Bitlord Compiler is a discord bot centered around compiling and executing the code in the discord itself. This bot is great for prototyping ideas, or testing concepts on-the-fly with very little effort. It supports programing languages like c++, c, java, python & more!.
+Bitlord Compiler is a discord bot centered around compiling and executing the code in the discord itself. This bot is great for prototyping ideas, or testing concepts on-the-fly with very little effort. It supports programing languages like c++, c, javascript, python & more!.
 
 ## 🏫 Usage
 Commands to use this bot are pretty simple. In discord type `!help` to get the list of commands you can use and how to implement them.
