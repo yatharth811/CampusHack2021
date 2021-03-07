@@ -96,7 +96,7 @@ showMessage();
             )
             return await channel.send(embed = embed)
         
-        code = message.content[message.content.index(command_raw[1]) + len(command_raw[1]):].strip().strip("```")
+        code = message.content[message.content.index(command_raw[1]) + len(command_raw[1]):].strip().strip("`")
         
         embed = getEmbed(
             "Executing your Code...",
