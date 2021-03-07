@@ -149,6 +149,15 @@ showMessage();
             )
             embed.set_thumbnail(url = "https://cdn.discordapp.com/attachments/818043664835149894/818071433111928912/warning.png")
             await loadingMessage.edit(embed = embed)
+            
+        else:
+            embed = getEmbed(
+                "An Error Occurred",
+                f"**Signal:** {response['status']}",
+                0xff0000
+            )
+            embed.set_thumbnail(url = "https://cdn.discordapp.com/attachments/818043664835149894/818071433111928912/warning.png")
+            await loadingMessage.edit(embed = embed)
 
         if fileName:
             await channel.send(
