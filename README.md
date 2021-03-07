@@ -5,7 +5,6 @@ Bitlord Compiler is a discord bot centered around compiling and executing the co
 Commands to use this bot are pretty simple. In discord type `!help` to get the list of commands you can use and how to implement them.
 
 ## 🔰 Hosting it yourself?
-Creating a Bot Token
 There's only two steps required to get this bot up-and-running.
 1) Download all the above files in a folder.
 2) Create `.env` file inside the same folder ,type `BOT_TOKEN=<your-bot-token>` inside it and hit save. 
